@@ -1,0 +1,349 @@
+@font-face {
+    font-family: 'helvetica';
+    src: url('../fonts/HelveticaLTCondensedMedium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helvetica';
+    src: url('../fonts/HelveticaLTStd-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helvetica';
+    src: url('../fonts/HelveticaLTStd-Light.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helvetica';
+    src: url('../fonts/HelveticaLTStd-Roman.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    margin: auto;
+    width: 1280px;
+    height: 2031px;
+}
+
+.header {
+    position: fixed;
+    margin: auto;
+    z-index: 6;
+    width: 1280px;
+    height: 88px;
+    background-color: lightskyblue;
+}
+
+.logo {
+    position: relative;
+    top: 30px;
+    left: 182px;
+    width: 191px;
+    height: 31px;
+    background-image: url(../img/logo.png);
+}
+
+.nav {
+    position: relative;
+    left: 720px;
+    top: 10px;
+    width: 455px;
+}
+
+.nav_link {
+    position: relative;
+    margin-right: 0px;
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+    font-size: 16px;
+    font-family: 'helvetica';
+}
+
+.nav_link:after {
+    content: '/';
+    margin: 0 20px;
+}
+
+.nav_link:last-child:after {
+    content: none;
+}
+
+.nav_link:hover {
+    text-decoration: beige;
+    color: cornsilk;
+    opacity: 1;
+}
+
+.slider {
+    position: absolute;
+    top: 88px;
+    left: 0;
+    width: 100%;
+    height: 478px;
+}
+
+.slider div {
+    width: 100%;
+    height: 478px;
+    background-image: url(../img/layer1.png);
+    font-size: 34pt;
+    font-family: 'helvetica';
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.slider div p {
+    position: relative;
+    top: 130px;
+    left: 382px;
+    width: 524px;
+    height: 91px;
+    font-size: 34pt;
+    font-family: 'helvetica';
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.slider div button {
+    position: relative;
+    top: 200px;
+    left: 0px;
+    width: 240px;
+    height: 55px;
+    border: solid;
+    border-radius: 7px;
+    border-color: aliceblue;
+    background: none;
+}
+
+.slider div button a {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'helvetica';
+    font-weight: 200;
+    font-size: 20pt;
+    color: white;
+}
+
+.slick-dots li button:before {
+    background-color: black;
+    border-radius: 100%;
+}
+
+.read_more a {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'helvetica';
+    font-weight: 200;
+    font-size: 20pt;
+    color: white;
+}
+
+.container2 {
+    position: relative;
+    top: 88px;
+    height: 476px;
+    width: 100%;
+    background-color: white;
+    z-index: 2;
+}
+
+.label1 {
+    position: relative;
+    top: 110px;
+    left: 324px;
+    width: 629px;
+    height: 77px;
+    font-size: 30px;
+    font-family: 'helvetica';
+    font-weight: 200;
+    text-align: center;
+}
+
+.label2 {
+    position: relative;
+    top: 150px;
+    left: 209px;
+    width: 865px;
+    height: 36px;
+    font-size: 14px;
+    font-family: 'helvetica';
+    font-weight: 500;
+    text-align: center;
+}
+
+.pic1 {
+    position: relative;
+    top: 230px;
+    left: 428px;
+    width: 56px;
+    height: 50px;
+    background-image: url(../img/pic1.png);
+}
+
+.pic2 {
+    position: relative;
+    top: 180px;
+    left: 612px;
+    width: 55px;
+    height: 55px;
+    background-image: url(../img/pic2.png);
+}
+
+.pic3 {
+    position: relative;
+    top: 125px;
+    left: 790px;
+    width: 56px;
+    height: 54px;
+    background-image: url(../img/pic3.png);
+}
+
+.container3 {
+    position: relative;
+    top: 88px;
+    width: 100%;
+    height: 468px;
+    background-color: mediumseagreen;
+    z-index: 4;
+}
+
+.photo {
+    position: relative;
+    top: 95px;
+    left: 571px;
+    width: 138px;
+    height: 138px;
+    border-radius: 100%;
+    background-image: url(../img/photo.png);
+}
+
+.copy {
+    position: relative;
+    top: 0px;
+    left: 750px;
+    width: 145px;
+    height: 92px;
+    background-image: url(../img/copy.png);
+    opacity: 0.5;
+}
+
+.label3 {
+    position: relative;
+    top: 10px;
+    left: 835px;
+    width: 110px;
+    height: 27px;
+    background-image: url(../img/dhavan.png);
+}
+
+.text {
+    position: relative;
+    top: 30px;
+    left: 212px;
+    width: 905px;
+    height: 46px;
+    font-family: helvetica;
+    font-weight: 200;
+    font-size: 18px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container4 {
+    position: relative;
+    top: 88px;
+    width: 100%;
+    height: 520px;
+    background-image: url(../img/map.png);
+    background-position-y: -107px;
+    z-index: 3;
+}
+
+.circle {
+    position: relative;
+    top: 50px;
+    left: 425px;
+    width: 435px;
+    height: 435px;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 90%;
+    z-index: 5;
+}
+
+.form {
+    position: relative;
+    top: 90px;
+    left: 82px;
+    width: 280px;
+    height: 175px;
+}
+
+.input {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 270px;
+    height: 35px;
+    margin-top: 15px;
+}
+
+.textarea {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 270px;
+    height: 83px;
+    margin-top: 15px;
+}
+
+.sub {
+    position: relative;
+    top: 35px;
+    left: 106px;
+    width: 68px;
+    height: 70px;
+    background-image: url(../img/check.png);
+    z-index: 6;
+    border: none;
+}
+
+.footer {
+    position: relative;
+    top: 88px;
+    width: 100%;
+    height: 40px;
+    background-color: mediumseagreen;
+    font-family: 'helvetica';
+    font-weight: normal;
+    font-size: 12pt;
+    z-index: 4;
+}
+
+.label4 {
+    position: relative;
+    top: 10px;
+    width: 100%;
+    height: 15px;
+    color: white;
+    text-align: center;
+}
